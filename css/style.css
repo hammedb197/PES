@@ -165,10 +165,10 @@ body {
   
 .imgclass
 {
-      width="100%";
+      max-width="100%";
 }
  
 .hhclass
 {
-      width="100%";
+      max-width="100%";
 }
