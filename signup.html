@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>PES Solutions - Join Our World</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css" >
+  <link rel="stylesheet" href="css/signup.css">
+  <script src ="jquery/jquery-2.2.3.min.js"></script>
+</head>
+	<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" style="padding:80px">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">HOME</a></li>
+     
+      </ul>
+    </div>
+  </div>
+</nav><body>
+
+<h2><span class="label label-danger"> PLEASE FILL ALL THE REQUIRED INFORMATION</span></h2>
+<form role ="form">
+<div class = "form-group">
+<form action=<!--"some php code"--> <form method ="POST">
+<p><label for ="Firstname"> FIRSTNAME :</label>	
+	<input type = "text" class="form-control" name="first" placeholder= "Firstname"></p>
+<p><label for ="Lastname"> LASTNAME :</label><input type = "text" class="form-control" placeholder ="Lastname"></p>
+<p><label for ="Username"> USERNAME :</label>
+	<input type = "text" class="form-control" placeholder ="Username" required></p>
+<p><label for ="email"> EMAIL :</label>
+	<input type = "text" class="form-control" placeholder ="abc@example.com" required></p>
+
+
+			<p><tr><td>
+			<label for ="state"> STATE :</label></td><td><select class="form-control" name="state"><!--this is the code that makes states drop down--><option value = "select your state" selected>select your state</option><option value = "Abia">Abia</option><option value ="Adamawa">Adamawa</option><option value="Akwa-Ibom"> Akwa-Ibom</option><option value="Anambra">Anambra</option><option value="Bauchi">Bauchi</option><option value="Beyelsa">Beyelsa</option><option value="Benue">Benue</option><option value ="Borno">Borno</option><option value="Cross River">Cross River</option><option value="Delta">Delta</option><option value="Ebonyi">Ebonyi</option><option value="Edo">Edo</option><option value="Ekiti">Ekiti</option><option value="Enugu">Enugu</option><option value="Gombe">Gombe</option><option value="Imo">Imo</option><option value="Jigawa">Jigawa</option><option value="Kaduna">Kaduna</option><option value="Kano">Kano</option><option value="Kastina">Kastina</option><option value="Kerbi">Kerbi</option><option value="Kogi">Kogi</option><option value="Kwara">Kwara</option><option value="Lagos">Lagos</option><option value="Nassarawa">Nassarawa</option><option value="Niger">Niger</option><option value="Ogun">Ogun</option><option value="Ondo">Ondo</option><option value="Osun">Osun</option><option value="Oyo">Oyo</option><option value="Plateau">Plateau</option><option value="River">River</option><option value="Sokoto">Sokoto</option><option value="Taraba">Taraba</option><option value="Yobe">Yobe</option><option value="Zamfara">Zamfara</option><option value="FCT-ABUJA">FCT-ABUJA</option></select><?php $stateErr; ?></td></tr></p>
+
+		<p><label for ="pwd"> PASSWORD :</label>
+			<input type = "password" class="form-control" placeholder ="password" required></p>
+
+			<p><tr>
+			
+				<td style="color:red;">AGREE TO TERMS AND CONDITION</td>
+			<td> <input type = "checkbox" name = "checked" value ="1"></td></p>
+			
+
+	<p style="text-align:center"><button type = submit onclick="alert('Thank you for subscribing to a package we will get in touch with you')"> SUBMIT </button></p>
+
+  	<!-- Container (Contact Section) -->
+	<div id="contact" class="container-fluid bg-grey">
+  		<h2 class="text-center">CONTACT</h2>
+  		<div class="row">
+      		<p><span class="glyphicon glyphicon-map-marker"></span> Agunbelewo, Osogbo, Osun State Nigeria.</p>
+      		<p><span class="glyphicon glyphicon-phone"></span> +234 706 256 9481</p>
+      		<p><span class="glyphicon glyphicon-envelope"></span><a href="mailto:pessolutions@gmail.com?Subject=Test%20mail"> pessolutions@gmail.com</a></p>
+   	   
+    	 </div>
+   	</div>
+   	<footer class="container-fluid text-center">
+   	<p>All rights reserved <strong>PES solutions</strong> &copy 2018</p>
+  </footer>
+  </body>
+</html>
